@@ -1,4 +1,4 @@
-# 2-yearsof Full Stack Development 🚀
+# 2-years-of Full Stack Development 🚀
 
 ### 🌑 The Commitment
 - **Developer:** Vansh
