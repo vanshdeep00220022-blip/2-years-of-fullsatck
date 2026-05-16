@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 02 - Full Stack Challenge</title>
+    <!-- Importing Tailwind CSS via CDN for quick styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Traditional CSS Class styling */
+        .custom-card {
+            background-color: #1e293b;
+            border-radius: 8px;
+            border: 2px solid #3b82f6;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white font-sans min-h-screen flex flex-col items-center justify-center p-6">
+
+    <!-- Tailwind CSS Styled Container -->
+    <div class="custom-card max-w-md w-full p-6 shadow-2xl text-center space-y-4">
+        
+        <!-- JavaScript injection target -->
+        <div id="js-heading" class="text-2xl font-bold tracking-wide text-blue-400">
+            <!-- JS will write text here dynamically -->
+        </div>
+
+        <p class="text-slate-400">
+            Today I learned about different HTML tags and how to style them using both standard CSS and Tailwind utility classes.
+        </p>
+
+        <!-- Inline Tags Practice Section -->
+        <div class="bg-slate-800 p-4 rounded-lg border border-slate-700 text-left space-y-2">
+            <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Inline Tags Demo:</h3>
+            <p>
+                This is a <strong class="text-amber-400">strong tag</strong>, this is an <em class="text-emerald-400">emphasized tag</em>, and here is a clickable <a href="https://github.com" target="_blank" class="text-blue-400 underline hover:text-blue-300">anchor link to GitHub</a>.
+            </p>
+        </div>
+
+        <!-- Tailwind Class Practice Button -->
+        <button class="w-full py-2 px-4 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md font-medium shadow-md hover:from-blue-600 hover:to-indigo-700 transition duration-200">
+            Tailwind Styled Button
+        </button>
+    </div>
+
+    <!-- JavaScript to write HTML dynamically -->
+    <script>
+        // Selecting the div element by its ID
+        const headingContainer = document.getElementById('js-heading');
+        
+        // Writing HTML content into it using JavaScript
+        headingContainer.innerHTML = "🚀 Day 02: Full-Stack Challenge";
+        
+        console.log("JavaScript successfully manipulated the DOM!");
+    </script>
+</body>
+</html>
