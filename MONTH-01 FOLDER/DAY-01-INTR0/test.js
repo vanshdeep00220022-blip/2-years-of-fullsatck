@@ -1,7 +1,7 @@
-# My first Python code
-name = "Vansh"
-day = 1
+// My first JavaScript code
+var name = "Vansh";
+var day = 1;
 
-print(name)
-print(day)
-print("Hello World")
+console.log(name);
+console.log(day);
+console.log("Hello World");
