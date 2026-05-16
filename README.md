@@ -18,4 +18,12 @@
 - [x] GitHub Repository Initialized
 - [x] Day 0: Setup
 - [x] Day 1: Hello World in Python & JS
-- [ ] Day 2: Practice
+- [x] **[Day 02](./Month%2001/Day%2002):** Learned inline HTML tags, basic CSS classes vs. Tailwind CSS utility classes, DOM text injection using JavaScript, and basic Python arithmetic/comparison operators.
+
+---
+
+## 🟩 Goal Checklist
+- [ ] Month 01: Core Fundamentals (HTML, CSS, JS, Python basics)
+- [ ] Month 02: Introduction to React & Advanced Python
+- [ ] Build 10+ Full-Stack Projects
+- [ ] Complete 730 Days of Consistency
