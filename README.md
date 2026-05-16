@@ -16,4 +16,6 @@
 - [x] Hardware Debugged (iPhone 12 Pro Max Screen Fixed)
 - [x] Development Environment Configured (VS Code & Python)
 - [x] GitHub Repository Initialized
-- [ ] Day 1: Starting the Logic...
+- [x] Day 0: Setup
+- [x] Day 1: Hello World in Python & JS
+- [ ] Day 2: Practice
