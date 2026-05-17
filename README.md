@@ -18,7 +18,8 @@
 - [x] GitHub Repository Initialized
 - [x] Day 0: Setup
 - [x] Day 1: Hello World in Python & JS
-- [x] **[Day 02](./Month%2001/Day%2002):** Learned inline HTML tags, basic CSS classes vs. Tailwind CSS utility classes, DOM text injection using JavaScript, and basic Python arithmetic/comparison operators.
+- [x] **[Day 02](./Month%2001/Day%2002):** HTML inline tags, CSS/Tailwind classes, JS HTML manipulation, and Python operators.
+- [x] **[Day 03](./Month%2001/Day%2003):** Mapped algorithm logic using formal DSA flowchart symbols, built Python `for` and `while` loops, and practiced JavaScript arithmetic operators.
 
 ---
 
