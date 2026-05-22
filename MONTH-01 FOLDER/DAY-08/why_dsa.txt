@@ -1,0 +1,16 @@
+====================================================================
+DAY 8 PERSPECTIVE: WHY DATA STRUCTURES & ALGORITHMS (DSA) MATTER
+====================================================================
+
+1. CODE EFFICIENCY & SCALING:
+   Syntax is just tool usage; DSA is systemic problem-solving. As data 
+   inputs grow from 10 items to 10,000,000 items, inefficient code collapses 
+   the server. DSA keeps execution curves predictable.
+
+2. RESOURCE OPTIMIZATION:
+   Memory (Space) and CPU cycles (Time) cost real money in cloud environments. 
+   Writing optimized algorithms directly slashes infrastructure costs.
+
+3. ENTERPRISE GATEWAYS:
+   Top-tier engineering organizations (FAANG/MNCs) use DSA patterns to screen 
+   for deep analytical clarity, proving an engineer can think past raw frameworks.
