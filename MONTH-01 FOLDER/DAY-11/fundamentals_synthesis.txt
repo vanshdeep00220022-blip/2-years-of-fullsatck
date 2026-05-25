@@ -1,0 +1,36 @@
+====================================================================
+DAY 11: CORE FUNDAMENTALS INTEGRATION & ENGINE THEORY ASSESSMENT
+====================================================================
+
+TRACK A: JAVASCRIPT ENGINE FUNDAMENTALS
+--------------------------------------------------------------------
+1. DATA TYPES & COMPARISONS:
+   - Primitive types (String, Number, Boolean, Undefined, Null) are 
+     stored directly in the execution stack by value.
+   - Relational Operators (>, <, >=, <=) run structural comparisons.
+   - Global Rule: Always use strict equality (===) over loose equality (==)
+     to completely bypass implicit type coercion bugs during runtime.
+
+2. LOGICAL OPERATOR SHORT-CIRCUITING:
+   - AND (&&): Evaluates left-to-right. Stops and returns the first falsy 
+     value it encounters. If all are truthy, it returns the last value.
+   - OR (||): Stops and returns the first truthy value it encounters.
+
+TRACK B: PYTHON ENGINE FUNDAMENTALS
+--------------------------------------------------------------------
+1. COMPARTMENTALIZED LOGIC GATES:
+   - Python leverages structural keywords ('and', 'or', 'not') instead of 
+     symbols to maximize logical readability.
+   - 'not' carries high operator precedence and flips boolean truth values instantly.
+
+2. STRING MEMORY MANAGEMENT:
+   - Python strings are completely IMMUTABLE in memory. 
+   - Slicing strings via indices [start:stop:step] or string stride rules 
+     like [::-1] never mutates the original string buffer; it allocates a 
+     completely new string location inside memory space.
+
+3. LOOP EXECUTION SCOPE:
+   - Definite loops ('for') step sequentially through a fixed boundary.
+   - Indefinite loops ('while') evaluate a conditional gate expression on 
+     every cycle until it resolves to False, making boundary checks crucial 
+     to prevent infinite memory leaks.
