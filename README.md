@@ -29,7 +29,8 @@
 - [x] Day 9: Python String Slicing & Tailwind Containers 🟢 
 - [x] Day 10: Advanced String Search Methods & CSS Positioning Contexts 🟢 
 - [x] Day 11: Core Language Theory & Logic Consolidation 🟢 
-- [ ] Day 12: Multi-Dimensional Arrays & Flexbox Layout Mechanics
+- [x] Day 12: Algorithmic String Traversal Challenges 🟢 
+- [ ] Day 13: Array Matrix Multi-Dimensions & Flexbox Layouts
 
 ---
 
