@@ -30,7 +30,7 @@
 - [x] Day 10: Advanced String Search Methods & CSS Positioning Contexts 🟢 
 - [x] Day 11: Core Language Theory & Logic Consolidation 🟢 
 - [x] Day 12: Algorithmic String Traversal Challenges 🟢 
-- [x] Day 13: External Stylesheet Integration & Semantic HTML 🟢 (Current)
+- [x] Day 13: External Stylesheet Integration & Semantic HTML 🟢 
 - [ ] Day 14: Dynamic Document Manipulation & Core State Logic Intro
 
 ---
