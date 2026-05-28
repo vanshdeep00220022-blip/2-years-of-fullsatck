@@ -1,0 +1,73 @@
+/* ====================================================================
+   DAY 14: PURE CSS STRUCTURAL CORE ENGINE & LAYOUT BOUNDARIES
+   ==================================================================== */
+
+/* Global Reset to enforce clean Box-Model calculation metrics */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Padding values stay contained inside the width */
+}
+
+/* Base Body Environment Layer */
+body {
+    background-color: #020617; /* Slate-950 dark theme */
+    color: #f1f5f9;
+    font-family: system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/* 1. THE CONTAINER MATRIX: Replicating Tailwind's fixed breakpoint layout */
+.css-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* 2. THE COORDINATE MATRICES: Relative Anchor wrapping an Absolute element */
+.parent-card {
+    position: relative; /* Sets the positioning coordinate context for children */
+    background-color: #0f172a; /* Slate-900 */
+    border: 1px solid #1e293b;
+    border-radius: 1rem;
+    padding: 2rem;
+    min-width: 320px;
+    min-height: 220px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Absolute Breakout: Placed exactly relative to the card border bounds */
+.absolute-badge {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: rgba(20, 184, 166, 0.1);
+    border: 1px solid rgba(20, 184, 166, 0.3);
+    color: #14b8a6; /* Teal-400 */
+    font-family: monospace;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+}
+
+/* 3. TEXT TRUNCATION ENGINE: GeeksforGeeks layout protection system */
+.text-overflow-handler {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #2dd4bf;
+    margin-bottom: 0.5rem;
+    
+    /* Strict CSS properties to force clean ellipsis behavior */
+    white-space: nowrap;      /* Prevents text wrapper breaks */
+    overflow: hidden;         /* Crops the trailing layout overflow */
+    text-overflow: ellipsis;  /* Appends the trailing '...' dots */
+}
