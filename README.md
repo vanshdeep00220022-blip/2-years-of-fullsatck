@@ -31,8 +31,9 @@
 - [x] Day 11: Core Language Theory & Logic Consolidation 🟢 
 - [x] Day 12: Algorithmic String Traversal Challenges 🟢 
 - [x] Day 13: External Stylesheet Integration & Semantic HTML 🟢 
-- [x] Day 14: Core CSS Layout Mechanics & Edge Case Solving 🟢 (Current)
-- [ ] Day 15: Introduction to Multi-State Logic & JavaScript Arrays
+- [x] Day 14: Core CSS Layout Mechanics & Edge Case Solving 🟢 
+- [x] Day 15: Portfolio Landing Core & Modular CSS System 🟢 
+- [ ] Day 16: Multi-Dimensional Array Traversals & Advanced CSS Flexbox Grids
 
 ---
 
