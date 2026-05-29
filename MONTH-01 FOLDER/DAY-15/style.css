@@ -1,0 +1,95 @@
+/* ==========================================================================
+   GLOBAL SETTINGS & VARIABLES
+   ========================================================================== */
+body {
+    background-color: #0B1023; /* Dark blue background theme */
+    margin: 0%;                /* Removes default browser edge margins */
+}
+
+/* Horizontal line fallback color */
+hr {
+    color: black;
+}
+
+/* ==========================================================================
+   HEADER & NAVIGATION BAR
+   ========================================================================== */
+header {
+    display: flex;                  /* Flexbox layout: aligns items in a row */
+    justify-content: space-between; /* Spaced out: Logo far-left, Links far-right */
+    align-items: center;            /* Centers header elements vertically */
+    padding: 10px 40px;             /* Interior buffer space for header */
+}
+
+#logo {
+    color: white;                   /* White text for the main website logo */
+    margin: 0;                      /* Resets default browser text margins */
+}
+
+#profile-img {
+    width: 60px;                    /* Explicit width of the navbar image */
+    height: 40px;                   /* Explicit height of the navbar image */
+}
+
+.nav-links {
+    display: flex;                  /* Keeps links arranged horizontally in a row */
+}
+
+/* Specific Navigation Link IDs */
+#Home, #About, #Skills, #Portfolio, #Contact {
+    color: white;                   /* Link text color */
+    text-decoration: none;          /* Removes default browser underlines */
+    padding: 0 20px;                /* Padding to increase clickable surface area */
+    margin-left: 30px;              /* Individual spacing separating each menu link */
+}
+
+/* ==========================================================================
+   MAIN CONTENT & LEFT-ALIGN LAYOUT
+   ========================================================================== */
+.main-content {
+    color: white;                   /* Default body typography color */
+    padding: 10px;                  /* Content section wall spacing */
+}
+
+#info {
+    font-size: x-large;             /* Increases text scale for hero text visibility */
+    margin-left: 0;                 /* Enforces zero alignment offsets on the left */
+    padding-left: 0;                /* Enforces zero alignment offsets on the left */
+    display: flex;                  /* Flexbox layout context */
+    flex-direction: column;         /* Stacks elements (headings, text, buttons) top-to-bottom */
+    align-items: flex-start;        /* Hard-aligns all child elements strictly to the left edge */
+    text-align: left;               /* Left-aligns wrapped multiline body typography */
+    padding: 20px;                  /* General padding for internal content block scaling */
+}
+
+/* ==========================================================================
+   TYPOGRAPHY EFFECTS (THE NANCY GRADIENT)
+   ========================================================================== */
+.highlight-name {
+    background: linear-gradient(45deg, #ff4a57, #3b82f6); /* Pink to blue color gradient fill */
+    -webkit-background-clip: text;                        /* Masks background layer to the font outline */
+    -webkit-text-fill-color: transparent;                 /* Empty interior color to show gradient backdrop */
+    display: inline-block;                                /* Preserves font layout transformations */
+}
+
+/* ==========================================================================
+   INTERACTIVE ELEMENTS (CALL TO ACTION BUTTON)
+   ========================================================================== */
+button {
+    color: white;                                         /* Text color inside the button */
+    background: linear-gradient(45deg, #ff4a57, #3b82f6); /* Custom pink-to-blue gradient fill */
+    padding: 12px 28px;                                   /* Spatial inside padding of the button */
+    border: none;                                         /* Clears old standard box outlines */
+    border-radius: 25px;                                  /* Capsule/Pill layout curvature shape */
+    font-weight: bold;                                    /* High weight thickness emphasis on text */
+    cursor: pointer;                                      /* Changes mouse pointer indicator to hand pointer */
+    transition: all 0.3s ease;                            /* Smooth micro-interaction transitions */
+}
+
+/* Button Hover State Interactions */
+button:hover {
+    transform: translateY(-2px);                          /* Micro-lift motion offset on vertical axis */
+    filter: brightness(1.2);                              /* Increase luminosity values for color flash glow */
+    box-shadow: 0 5px 15px rgba(255, 74, 87, 0.4);       /* Ambient accent lighting layer below button */
+    opacity: 0.8;                                         /* Fades element marginally for interaction feedback */
+}
