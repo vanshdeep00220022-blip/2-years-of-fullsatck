@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 14 | Advanced CSS Layout Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="layout-container">
+        <h1 class="main-title">CSS Problem Solving Matrix | Day 14</h1>
+
+        <section class="card-container">
+            <div class="collapsing-box margin-bottom-box">Box A (Margin Bottom 40px)</div>
+            <div class="collapsing-box margin-top-box">Box B (Margin Top 20px)</div>
+            <p class="explanation-text">
+                Notice the total space between Box A and Box B is 40px, not 60px. This is native <strong>Margin Collapse</strong>.
+            </p>
+        </section>
+
+        <section class="card-container">
+            <div class="responsive-aspect-box">
+                <span class="badge-text">16:9 Aspect Ratio Container</span>
+            </div>
+            <p class="explanation-text">
+                This block maintains a strict 16:9 box shape across all fluid device display resizes.
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>
