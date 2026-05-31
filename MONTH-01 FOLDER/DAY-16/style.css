@@ -1,0 +1,258 @@
+/* ==========================================================================
+   GLOBAL RESET ENGINE & BASELINE ROOT ENGINE
+   ========================================================================== */
+* {
+    margin: 0;                   /* Strips accidental standard padding spaces out */
+    padding: 0;                  /* Flattens interior standard margins entirely */
+    box-sizing: border-box;      /* Keeps spacing measurements inside assigned width boundaries */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212;  /* Creates the global charcoal black matte surface canvas */
+    color: #ffffff;             /* Declares standard typography base elements bright white */
+    overflow-x: hidden;         /* Prevents breaking structural site canvas box lines layout horizontally */
+}
+
+
+/* ==========================================================================
+   FIRST SCREEN PAGE: HERO BACKGROUND CONFIGURATION
+   ========================================================================== */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;              /* Locks container height precisely to 100% viewport vertical height */
+    
+    /* Mixes a subtle translucent black color overlay layer directly with your wallpaper picture */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), #121212), url('/Users/vansh/Desktop/FULL STACK-DEVELOPMENT /MONTH-01 FOLDER/DAY-16/IMG_20250319_230611_165.webp');
+    background-size: cover;     /* Scales image dynamically without cutting or stretching pixels raw */
+    background-position: center top; 
+    
+    /* Flexbox variables to anchor navigation at top and headers in mid center */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+/* NAVBAR FLEX MATRIX SYSTEM */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;            /* Strips default point bullet circles off link chains */
+    gap: 30px;                   /* Separates link text strands evenly */
+}
+
+.nav-links a {
+    color: #aaaaaa;
+    text-decoration: none;       /* Strips standard web underline style accents completely */
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Transitions element hover changes down smoothly over time */
+}
+
+.nav-links a:hover, 
+.nav-links a.active {
+    color: #ffffff;             /* Bright white switch on cursor presence hover or current page activation */
+}
+
+/* CENTRAL HERO HEADERS DISPLAY */
+.hero-content {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hero-content h3 {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.hero-content h1 span {
+    color: #d1a166;             /* Replicates design gold code palette highlight color */
+}
+
+/* INTERFACE UTILITY HOVER ACTION INTERFACES BUTTON BUILDERS */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 12px 35px;
+    border-radius: 30px;         /* Creates a modern pill round structural button look */
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-outline {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-solid {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
+}
+
+.btn-solid:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+/* ==========================================================================
+   SECOND PAGE LAYOUT: ABOUT SECTOR COLUMNS CONFIGURATION
+   ========================================================================== */
+.about-section {
+    background-color: #1a1a1a;  /* Slightly lighter dark background panel contrast separator */
+    padding: 100px 80px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;              /* Activates CSS Grid blueprint engine matrix rules */
+    grid-template-columns: 1fr 1fr 1.2fr; /* Divides the page row space into 3 unique columns */
+    gap: 50px;                  /* Locks dynamic spacing lanes across structural border separations */
+    align-items: center;
+}
+
+/* COLUMN 1 ELEMENTS STYLING (SKILL GRAPHS) */
+.about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.bg-title {
+    font-size: 70px;
+    color: #262626;             /* Very low visibility dark charcoal tone text shade background marker */
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    width: 100%;
+}
+
+.skill-box {
+    margin-bottom: 25px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #dddddd;
+    font-weight: 600;
+}
+
+.bar {
+    width: 100%;
+    height: 6px;
+    background-color: #333333;  /* Background empty channel rail tray path for metric bars */
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #d1a166;  /* High visibility theme color fills tracker lanes to display skills metric levels */
+    border-radius: 3px;
+}
+
+/* COLUMN 2 ELEMENTS STYLING (IMAGE CONTAINER) */
+.about-center .profile-img-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(30%);     /* Lowers photo saturation slightly to align with the moody website theme */
+}
+
+/* COLUMN 3 ELEMENTS STYLING (BIOGRAPHY CONTENT & SIGNATURES) */
+.about-right .subtitle {
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #888888;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.name-badge {
+    display: inline-block;
+    background-color: #d1a166;  /* Generates the striking gold rectangle title card box block background */
+    color: #121212;             /* Shifts text overlay inside gold banner deep black for clear readability */
+    padding: 5px 15px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.job-title {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.bio-text {
+    font-size: 14px;
+    color: #aaaaaa;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* SOCIAL REPOSITORIES VECTOR ICONS STYLING */
+.social-links {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 13px;
+    color: #888888;
+}
+
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #d1a166;             /* Glows gold instantly when mouse cursor tracks over icons */
+}
