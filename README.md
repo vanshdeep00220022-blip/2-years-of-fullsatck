@@ -33,8 +33,10 @@
 - [x] Day 13: External Stylesheet Integration & Semantic HTML 🟢 
 - [x] Day 14: Core CSS Layout Mechanics & Edge Case Solving 🟢 
 - [x] Day 15: Portfolio Landing Core & Modular CSS System 🟢 
-- [x] Day 16: Pinterest Layout Translation & Core CSS Revision 🟢 (Current)
-- [ ] Day 17: Multi-Dimensional Array Vectors & Advanced Layout Matrix
+- [x] Day 16: Pinterest Layout Translation & Core CSS Revision 🟢 
+- [x] Day 17: Multi-Dimensional Array Vectors & Advanced Layout Matrix
+- [x] Day 8: Box Model Dimensions, Container Utilities, & DSA Logic 🟢 
+- [ ] Day 9: Multi-Dimensional Arrays & Flexbox Alignment Mechanics
 
 ---
 
