@@ -1,0 +1,34 @@
+====================================================================
+DAY 19: JAVASCRIPT CORE ENGINE CORE - VARIABLE STATES & DATA TYPES
+====================================================================
+
+1. THE VARIABLE SCOPING MATRIX:
+   - const: Block-scoped. Absolute immutable reference assignment. 
+            Cannot be redeclared or reassigned during system execution. 
+            Must be initialized at declaration. Default choice for system safety.
+   - let  : Block-scoped. Mutable block reference memory allocation. 
+            Can be reassigned but not redeclared within the same scope. 
+            Used for loops, counters, and state flips.
+   - var  : Function-scoped. Legacy declaration framework. Subject to hoisting 
+            mechanics where the engine lifts declarations to the top of the 
+            execution context, leading to silent bugs. Banned in modern systems.
+
+2. NATIVE CORE DATA TYPES:
+   Primitives (Stored directly in the execution stack by value):
+   - String  : Textual character matrices wrapped in single, double, or backticks.
+   - Number  : Double-precision 64-bit binary format IEEE 754 values (Handles ints and floats).
+   - Boolean : Absolute logical gates containing only true or false states.
+   - Null    : Explicit, intentional assignment of an empty or missing value pointer.
+   - Undefined: Implicit system state variable declared but not assigned a value.
+
+3. RUNTIME VERIFICATION LOGS:
+   Execute the following code blocks inside your Node.js or browser console tracker:
+
+   const developerName = "Vanshdeep Singh"; // String literal initialization
+   let dailyCommitCount = 19;             // Number literal state assignment
+   const isStreakActive = true;           // Boolean logic configuration
+
+   console.log("⚡ System Initialization Log:");
+   console.log("Name:", developerName, " -> Type:", typeof developerName);
+   console.log("Day :", dailyCommitCount, " -> Type:", typeof dailyCommitCount);
+   console.log("Active:", isStreakActive, " -> Type:", typeof isStreakActive);
