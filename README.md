@@ -37,7 +37,7 @@
 - [x] Day 17: Multi-Dimensional Array Vectors & Advanced Layout Matrix
 - [x] Day 18: Box Model Dimensions, Container Utilities, & DSA Logic 🟢 
 - [x] Day 19: JavaScript Core Engine & Variable Scopes 🟢 (Current)
-- [ ] Day 20: JavaScript Relational Logic & Condition Gateways
+- [x] Day 20: JS Variables | Difference between var, let, and const, and scoping rules. | [View Day 20](./Day20-JS-Variables) |
 
 ---
 
